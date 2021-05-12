@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <div className="container mx-auto">
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           <ds-card
             card-image-url="https://source.unsplash.com/oul9SXW4pHk/384x234"
             card-image-alt="Ladakh mountains"
@@ -21,8 +21,8 @@ function App() {
 
           <Card
             cardImageUrl="https://source.unsplash.com/sFku2lE3isw/384x234"
-            cardImageAlt="Random image"
-            cardTitle="Random image title"
+            cardImageAlt="Baby goats"
+            cardTitle="Goats are cute"
             cardText="Compassion for animals is intimately associated with goodness of character, and it may be confidently asserted that he who is cruel to animals cannot be a good man."
             cardTags={tags}
             tagClick={handleTagClick}>
@@ -33,7 +33,7 @@ function App() {
             cardImageAlt="Random image"
             cardTitle="Another random image title"
             cardText="This coffee falls into your stomach, and straightway there is a general commotion. Ideas begin to move like the battalions of the Grand Army on the battlefield."
-            cardTags={tags}
+            cardTags={["coffee", "balzac"]}
             tagClick={handleTagClick}>
           </Card>
         </div>
