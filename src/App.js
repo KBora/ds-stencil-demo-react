@@ -4,20 +4,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ds-card
+        card-image-url="https://source.unsplash.com/oul9SXW4pHk/384x234"
+        card-image-alt="Ladakh mountains"
+        card-title="What will the future hold?"
+        card-text="If you obsess over whether you are making the right decision, you are basically assuming that the universe will reward you for one thing and punish you for another.">        
+      </ds-card>
     </div>
   );
 }
